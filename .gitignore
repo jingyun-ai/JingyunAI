@@ -1,0 +1,14 @@
+Java/target/
+Uniapp/node_modules/
+Uniapp/unpackage/
+
+Web/dist/
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+/.idea/

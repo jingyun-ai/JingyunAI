@@ -1,0 +1,203 @@
+[
+  {
+    "title": "文案提取",
+    "list": [
+      {
+        "icon": "avatar-1.webp",
+        "title": "文案提取",
+        "model": "7481136167808335906",
+        "desc": "通过视频链接提取视频文案并进行内容纠错",
+        "role": "视频文案提取与纠错",
+        "placeholder": "请提供需要提取文案的视频链接",
+        "body": "",
+        "enterTheList": [],
+        "name": "文案小能手",
+        "position": "初级内容运营",
+        "backgroundImage": "cover-1.webp"
+      },
+      {
+        "icon": "avatar-2.webp",
+        "title": "主页文案提取",
+        "model": "7481203655845871631",
+        "desc": "通过抖音主页链接精准提取文案",
+        "role": "文案提取-主页链接",
+        "placeholder": "请提供需要提取文案的主页链接",
+        "body": "",
+        "enterTheList": [
+          {
+            "name": "数量",
+            "data": "3"
+          }
+        ],
+        "name": "内容挖掘机",
+        "position": "高级内容运营",
+        "backgroundImage": "cover-2.webp"
+      },
+      {
+        "icon": "avatar-3.webp",
+        "title": "关键词搜索",
+        "model": "7481573630996971546",
+        "desc": "通过关键词搜索来提取文案",
+        "role": "文案提取-关键词搜索",
+        "placeholder": "请输入需要搜索的关键词",
+        "body": "",
+        "enterTheList": [
+          {
+            "name": "数量",
+            "data": "5"
+          }
+        ],
+        "name": "搜索达人",
+        "position": "内容运营主管",
+        "backgroundImage": "cover-3.webp"
+      }
+    ]
+  },
+  {
+    "title": "文案改写",
+    "list": [
+      {
+        "icon": "avatar-4.webp",
+        "title": "润色复刻",
+        "model": "7482706561681457187",
+        "desc": "对视频口播文案进行改写、润色与复刻",
+        "role": "文案改写-润色复刻",
+        "placeholder": "请提供需要润色的文案内容",
+        "body": "",
+        "enterTheList": [
+          {
+            "name": "数量",
+            "data": "3"
+          },
+          {
+            "name": "每条文案字数",
+            "data": "200"
+          }
+        ],
+        "name": "文案优化师",
+        "position": "高级内容编辑",
+        "backgroundImage": "cover-4.webp"
+      },
+      {
+        "icon": "avatar-5.webp",
+        "title": "关键词修改",
+        "model": "7482695717396480039",
+        "desc": "通过关键词修改文案",
+        "role": "文案改写-关键词",
+        "placeholder": "请输入需要改写的文案",
+        "body": "",
+        "enterTheList": [
+          {
+            "name": "关键词",
+            "data": ""
+          },
+          {
+            "name": "数量",
+            "data": "3"
+          },
+          {
+            "name": "每条文案字数",
+            "data": "200"
+          }
+        ],
+        "name": "关键词专家",
+        "position": "内容总监",
+        "backgroundImage": "cover-5.webp"
+      },
+      {
+        "icon": "avatar-6.webp",
+          "title": "钩子优化",
+        "model": "7482692264754724873",
+        "desc": "优化文案钩子部分增强吸引力",
+        "role": "文案改写-钩子优化",
+        "placeholder": "请提供需要优化钩子的文案",
+        "body": "",
+        "enterTheList": [
+          {
+            "name": "钩子类型",
+            "data": "提问反问式",
+            "type": "select",
+            "options": [
+              "提问反问式",
+              "名人式",
+              "干货式",
+              "强吸引式"
+            ]
+          },
+          {
+            "name": "数量",
+            "data": "3"
+          },
+          {
+            "name": "每条文案字数",
+            "data": "200"
+          }
+        ],
+        "name": "吸引力大师",
+        "position": "创意总监",
+        "backgroundImage": "cover-6.webp"
+      }
+    ]
+  },
+  {
+    "title": "视频文案",
+    "list": [
+      {
+        "icon": "avatar-7.webp",
+        "title": "智能撰写",
+        "model": "7482620503036461066",
+        "desc": "专业视频口播文案创作",
+        "role": "视频文案撰写",
+        "placeholder": "请描述需要撰写的视频主题",
+        "body": "",
+        "enterTheList": [
+          {
+            "name": "视频结构",
+            "data": "痛点共鸣型",
+            "type": "select",
+            "options": [
+              "痛点共鸣型",
+              "悬念提问型",
+              "对比测试型",
+              "故事场景型",
+              "热点借势型",
+              "恐惧诉求型",
+              "社交货币型",
+              "仪式感塑造",
+              "认知颠覆型",
+              "挑战认知型"
+            ]
+          },
+          {
+            "name": "钩子开头",
+            "data": "提问式钩子（引发好奇）",
+            "type": "select",
+            "options": [
+              "提问式钩子（引发好奇）",
+              "悬念式钩子（制造期待）",
+              "数字法钩子（精准冲击）",
+              "痛点刺激钩子（直戳需求）",
+              "反差对比钩子（制造冲突）",
+              "热点关联钩子（借势流量）",
+              "指令式钩子（下达命令）",
+              "故事感钩子（场景代入）",
+              "情绪共鸣钩子（引发共情）",
+              "挑战常识钩子（推翻认知）"
+            ]
+          },
+          {
+            "name": "每条文案字数",
+            "data": "200"
+          },
+          {
+            "name": "数量",
+            "data": "3"
+          }
+        ],
+        "name": "文案创作达人",
+        "position": "内容总监",
+        "backgroundImage": "cover-7.webp"
+      }
+    ]
+  }
+]

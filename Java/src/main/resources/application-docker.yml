@@ -1,0 +1,169 @@
+spring:
+  data:
+    # redis配置
+    redis:
+      database: 0
+      host: 127.0.0.1
+      port: 6379
+      password: ''
+  # mysql配置
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/super_bot?useUnicode=true&serverTimezone=Asia/Shanghai&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&autoReconnect=true&allowMultiQueries=true&useSSL=true
+    username: super_bot
+    password: 'super_bot'
+  # 邮箱配置
+  mail:
+    host:
+    username:
+    password: ''
+    default-encoding: UTF-8
+    properties:
+      mail:
+        smtp:
+          socketFactory:
+            class: javax.net.ssl.SSLSocketFactory
+    port: 587
+
+# 企业微信推送配置
+wechat:
+  corp:
+    id: ''
+    secret: ''
+    agent-id: ''
+
+# 阿里云短信
+ali-sms:
+  # accessKey
+  accessKey: ''
+  # accessSecret
+  accessSecret: ''
+  # 短信签名
+  signName: ''
+  # 短信模板
+  templateCode: ''
+
+# 微信
+we-chat:
+  # APPID
+  appId: ''
+  # 密钥
+  secret: ''
+  # 通知模板
+  template: '微信审核通知模板'
+
+# 支付宝配置
+ali-pay:
+  # 支付宝应用ID
+  appId: ''
+  # 支付宝公钥
+  alipayPublicKey: ''
+  # 私钥
+  privateKey: ''
+  # 域名
+  domain: 'https://xxx.com'
+
+# 微信支付配置
+wx-pay:
+  #  商户号
+  merchantId: ""
+  #  商户证书序列号
+  merchantSerialNumber: ""
+  #  商户APIV3密钥
+  apiV3Key: ""
+#  商户API私钥路径
+#  privateKeyPath: classpath:apiclient_key.pem
+
+# 超级管理员账号密码
+root:
+  # 邮箱
+  email: 111@qq.com
+  # 密码
+  password: '123456'
+
+# 百度翻译
+baidu-translation:
+  # 百度翻译Appid
+  appid: ''
+  # 百度翻译密码要
+  secret: ''
+
+# 阿里OSS
+ali-oss:
+  endpoint: ''
+  accessKey: ''
+  secretKey: ''
+  bucketName: ''
+  domain: 'https://alioss.com'
+
+# GPT 对话助手配置
+gpt:
+  # 开发者名称
+  author: '井云'
+  # BOT 中文名
+  botNameChinese: '井云'
+  # BOT 英文名
+  botNameEnglish: '井云'
+
+# 默认服务器配置 以下非必填
+
+config:
+  #月之暗面API秘钥
+  MoonShot_Key: ''
+  #图可丽API Url
+  TuKeLi_Url: ''
+  #图可丽API密钥
+  TuKeLi_Key: ''
+  #CCoUI url
+  CCoUIUrl: ''
+  #基本openAiUrl 基本和增强的URL可以一致
+  openAiUrl: 'http://127.0.0.1:3000/v1'
+  #增强openAiUrl
+  openAiPlusUrl: 'http://127.0.0.1:3000/v1'
+  # SD API
+  sdUrl: ''
+  # 配置
+  openKey: ''
+  # GPT-4
+  openPlusKey: ''
+  # 用户第一次登录奖励次数
+  incentiveFrequency: 10
+  # 观看视频奖励次数
+  videoFrequency: 1
+  # SD消耗次数
+  sdImageFrequency: 5
+  # GPT文生图消耗次数
+  gptTextImageFrequency: 5
+  #GPT消耗次数
+  gptFrequency: 1
+  #GPT消耗次数
+  gptPlusFrequency: 20
+  # 观看视频奖励次数
+  signInFrequency: 1
+  # claude
+  organizationUuid: ''
+  # 连ID
+  conversationUuid: ''
+  # sessionKey
+  sessionKey: ''
+  # 必应Cookie
+  newBingCookie: ''
+
+
+# 默认终端配置
+control:
+  # 代理ip 只支持 clash
+  proxyIp: 127.0.0.1
+  # 代理端口
+  proxyPort: 7890
+  # 小程序环境 (develop开发板 trial体验版 release正式版)
+  wechatAppEnv: release
+  # 敏感词
+  sensitiveWords: "(CHAT|GPT|OPEN|OPENAI)"
+  # 是否开启敏感词过滤
+  enableSensitive: true
+  # 是否开启GPT-4 不开启则 所有流量指向GPT-3模型
+  enableGptPlus: true
+  # 是否隐藏小程序主页面
+  enableWechatAppMain: true
+  # 是否开启代理了
+  enableProxy: false
