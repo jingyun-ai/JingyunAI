@@ -1,13 +1,13 @@
 # 井云AI数字员工 Jingyun_Agent
 ## JINGYUN.AI
-![欢迎页](page1.png)
+![欢迎页](README/page1.png)
 ## 核心功能
 - 快速接入扣子工作流/智能体
 - 开箱即用、前端接入数字员工、集成支付能力
 ## 什么是 Jingyun_Agent  数字员工
 Jingyun_Agent 你的第一个数字员工，提供抖音链接文案提取，关键词提取，主页提取，文案撰写，账号定位等智能体工作流，Jingyun_Agent 系统是一个面向智能体创业者提供集成平台，基于 TIME-SEA-ChatGPT 框架修改，支持扣子工作流API接入，提示词配置，系统适配了 PC Web 端和手机端，框架提供了 亮色 和 暗色 两个主题。除此之外，还提供了支付的配置，开发者自主使用其添加扣子智能体。
 
-![数字员工](page2.png)
+![数字员工](README/page2.png)
 更多关于 Jingyun_Agent，请访问官网： [jingyun.ai](https://jingyun.ai)
 
 ### 前言
@@ -51,4 +51,6 @@ https://szyg.jingyuncenter.com/   （不要订购，直接联系客服给激活�
 ## 部署教程
 - 部署可参考 TIME-SEA-ChatGPT 教程
 https://github.com/dulaiduwang003/TIME-SEA-chatgpt  
-- 具体API配置可参考以下代码
+- 具体API配置可参考以下方式
+- 将Coze智能体的Bot ID复制到One API的模型中，系统即可调用
+![img.png](README/coze_id.png)![img_1.png](README/One-API.png)
